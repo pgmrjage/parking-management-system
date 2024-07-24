@@ -1,0 +1,48 @@
+/* gatepassstyles.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Styles for the gate pass form */
+.gate-pass-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+#gatePassForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#gatePassForm h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#gatePassForm label {
+    margin-top: 5px;
+}
+
+#gatePassForm input, #gatePassForm select, #gatepassform textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+#gatePassForm button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#gatepassform button:hover {
+    background-color: #45a049;
+}
+
+#othersContainer {
+    margin-top: 10px;
+}
